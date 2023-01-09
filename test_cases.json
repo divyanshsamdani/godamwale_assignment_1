@@ -33,7 +33,7 @@ Test Case body for order POST -
         },
         {
             "productName": "Laptop",
-            "quantity": "2",
+            "quantity": 2,
             "sellPrice": 80000
         }
     ]
