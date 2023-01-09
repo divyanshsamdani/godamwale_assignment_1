@@ -1,24 +1,24 @@
-
+Test Case body for grn POST -
 {
-    "invoiceNumber": "12300",
+    "invoiceNumber": 12300,
     "vendorName": "Rohan",
     "vendorFullAddress": "Bengaluru-50099",
     "grnLineItems":[
         { 
             "productName": "Fan",
-            "quantity": "5",
-            "stockPrice": "6000"
+            "quantity": 5,
+            "stockPrice": 6000
         },
         { 
             "productName": "Laptop",
-            "quantity": "7",
-            "stockPrice": "50000"
+            "quantity": 7,
+            "stockPrice": 50000
         }
     ],
     "date": "2023-01-10"
 }
 
-
+Test Case body for order POST -
 
 {
     "invoiceNumber": 50000,
@@ -29,12 +29,22 @@
         {
             "productName": "Fan",
             "quantity": 1,
-            "sellPrice": "8000"
+            "sellPrice": 8000
         },
         {
             "productName": "Laptop",
             "quantity": "2",
-            "sellPrice": "80000"
+            "sellPrice": 80000
         }
     ]
+}
+
+body for status -
+
+{
+    "status": "COMPLETED"
+}
+or
+{
+    "status": "CANCELLED"
 }
