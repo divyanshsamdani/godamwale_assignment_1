@@ -1,0 +1,40 @@
+
+{
+    "invoiceNumber": "12300",
+    "vendorName": "Rohan",
+    "vendorFullAddress": "Bengaluru-50099",
+    "grnLineItems":[
+        { 
+            "productName": "Fan",
+            "quantity": "5",
+            "stockPrice": "6000"
+        },
+        { 
+            "productName": "Laptop",
+            "quantity": "7",
+            "stockPrice": "50000"
+        }
+    ],
+    "date": "2023-01-10"
+}
+
+
+
+{
+    "invoiceNumber": 50000,
+    "customerName": "Sarvesh",
+    "customerFullAddress": "Nimach-453421",
+    "date": "2023-02-15",
+    "orderLineItems": [
+        {
+            "productName": "Fan",
+            "quantity": 1,
+            "sellPrice": "8000"
+        },
+        {
+            "productName": "Laptop",
+            "quantity": "2",
+            "sellPrice": "80000"
+        }
+    ]
+}
